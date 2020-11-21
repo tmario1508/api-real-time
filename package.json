@@ -1,0 +1,19 @@
+{
+  "name": "api_real_time",
+  "version": "1.0.0",
+  "description": "API en NodeJS para la aplicacion Real_Time",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=PRODUCTION && node dist/index.js",
+    "dev": "set DEBUG=api:* && nodemon dist/index.js",
+    "test": "echo \"Error: no test specified\""
+  },
+  "author": "Mario Torres Espinosa",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.9"
+  }
+}
